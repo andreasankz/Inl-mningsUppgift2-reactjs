@@ -19,7 +19,7 @@ const Activity = ({ activity, activitys, setActivitys }) => {
     }
 
     return (
-        <div className={ `border mb-2 p-3 ${ activity.task ? 'complete' : 'ongoing' }` }>
+        <div className= "border mb-2 p-3 ">
             <div className="d-flex justify-content-between align-items-center">
                 <div className={`${ activity.task ? 'complete' : 'ongoing' }`}>
                     <div className="name">{activity.name}</div>
